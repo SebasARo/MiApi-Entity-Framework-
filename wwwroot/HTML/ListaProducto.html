@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Productos</title>
+    <link rel="stylesheet" href="../Estilos/Estilos.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Lista de Productos</h1>
+
+    <button onclick="loadProducts()">Cargar Productos</button>
+
+    <table id="products-table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>User ID</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <ul id="result"></ul>
+</div>
+
+<script src="../JS/ListProducts.js"></script>
+</body>
+</html>

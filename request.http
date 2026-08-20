@@ -1,0 +1,32 @@
+
+GET http://localhost:5144/api/User
+
+
+###
+GET http://localhost:5144/api/User/1
+
+
+###
+POST http://localhost:5144/api/User
+Content-Type: application/json
+
+{
+  "nombre": "Carlos",
+  "email": "carlos@mail.com",
+  "edad": 30
+}
+
+
+###
+PUT http://localhost:5144/api/User/3
+Content-Type: application/json
+
+{
+    "nombre": "Carlos",
+    "email": "carlosactualizado@mail.com",
+    "edad": 31
+}
+
+###
+DELETE http://localhost:5144/api/User/1
+Content-Type: application/json
